@@ -24,3 +24,28 @@ int main(){
     return 0;
 
 }
+
+
+// #include<iostream>
+// #include<math.h>
+// using namespace std;
+
+// int main(){
+//     int num;
+//     cout<<"Enter the Number : ";
+//     cin>> num;
+//     int flag = 0;
+//     for (int i = 0;i<=30;i++){
+//         int ans = pow(2,i);
+//         if (ans == num){
+//             flag = 1;
+//         }
+//     }
+//     if(flag == 1){
+//         cout <<"true";
+//     }else{
+//         cout <<"false";
+//     }
+
+//     return 0;
+// }
