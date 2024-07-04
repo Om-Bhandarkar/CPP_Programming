@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution{
     public:
-        int powerOfTwo(int num){
+        bool powerOfTwo(int num){
             for (int i =0;i<=30;i++){
                 int ans = pow(2,i);
                 if (ans == num){
@@ -19,7 +19,7 @@ int main(){
     cout<< "Enter Number : ";
     cin>>num;
     Solution obj;
-    int ans = obj.powerOfTwo(num);
+    bool ans = obj.powerOfTwo(num);
     cout<<ans;
     return 0;
 
